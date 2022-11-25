@@ -62,7 +62,7 @@ class Command(BaseCommand):
             except Exception as e:
                 print('ERROR ', e)
                 # Создаем суперпользователя при помощи менеджера модели
-            if not User.objects.filter(username='w').exists():
-                User.objects.create_superuser('w', 'w@w.ru', '1')
+            if not User.objects.filter(username='q').exists():
+                User.objects.create_superuser('q', 'q@q.ru', '1')
 
         print(len(flights))
