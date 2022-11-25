@@ -24,4 +24,4 @@ class FlightAdmin(admin.ModelAdmin):
         return obj.scheme.get_daily_profit()
 
 
-admin.site.register(Scheme)
+# admin.site.register(Scheme)
